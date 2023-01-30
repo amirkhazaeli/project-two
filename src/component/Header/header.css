@@ -1,0 +1,20 @@
+.header{
+    background-color: rgb(216, 124, 20);
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+span{
+    font-size: 1.3rem;
+    color: white;
+}
+span:hover{
+    color: black;
+}
+@media  screen and (max-width: 400px) {
+    .header{
+        justify-content: space-between;
+        padding: 0px 15px;
+    }
+}
